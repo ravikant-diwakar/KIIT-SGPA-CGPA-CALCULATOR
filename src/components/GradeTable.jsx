@@ -79,8 +79,8 @@ const GradeTable = () => {
               key={index}
               className={
                 index % 3 === 0
-                  ? 'bg-gray-50 dark:bg-gray-800'
-                  : 'bg-white dark:bg-gray-800'
+                  ? 'bg-gray-100 dark:bg-gray-800'
+                  : 'bg-gray-200 dark:bg-gray-700'
               }
             >
               <td className="px-2 py-3 sm:px-4 sm:py-3 md:px-6 md:py-4 text-center font-semibold text-xs sm:text-sm md:text-base">{item.grade}</td>
