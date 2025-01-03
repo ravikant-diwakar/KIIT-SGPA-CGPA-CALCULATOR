@@ -56,15 +56,15 @@ CGPA = [∑CI of all previous semesters] / [∑CREDITS of all semesters]
 
 ## Development
 
-# Install dependencies
+### Install dependencies
 ```bash
 npm install
 ```
-# Run development server
+### Run development server
 ```bash
 npm run dev
 ```
-# Build for production
+### Build for production
 ```bash
 npm run build
 ```
