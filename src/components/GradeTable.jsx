@@ -22,9 +22,16 @@ const GradeTable = () => {
             <th className="px-6 py-3">Interpretation</th>
           </tr>
         </thead>
-        <tbody>
+        tbody>
           {grades.map((item, index) => (
-            <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+            <tr
+              key={index}
+              className={
+                index % 3 === 0
+                  ? "bg-gray-50 dark:bg-gray-800" // Light background for the first row, dark background in dark mode
+                  : "bg-white dark:bg-gray-800" // White background in light mode, dark in dark mode
+              }
+            >
               <td className="px-6 py-4 text-center font-semibold">{item.grade}</td>
               <td className="px-6 py-4 text-center">{item.score}</td>
               <td className="px-6 py-4 text-center">{item.points}</td>
