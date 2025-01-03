@@ -59,17 +59,13 @@ CGPA = [∑CI of all previous semesters] / [∑CREDITS of all semesters]
 ```bash
 # Install dependencies
 npm install
-
+```
+```bash
 # Run development server
 npm run dev
-
+```
+```bash
 # Build for production
 npm run build
 ```
 
-## Technologies Used
-
-- React
-- Tailwind CSS
-- Vite
-- Local Storage API
