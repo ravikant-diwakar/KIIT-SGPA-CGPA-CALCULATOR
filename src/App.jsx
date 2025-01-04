@@ -23,8 +23,8 @@ function App() {
       <ThemeToggle />
       <Header />
       
-      <main className="py-4 md:py-8 px-4">
-        <div className="max-w-4xl mx-auto">
+      <main className="py-8 lg:py-16 px-8 lg:px-16">
+        <div className="max-w-6xl mx-auto">
           <div className="text-center mb-6 md:mb-8">
             <h1 className="text-2xl md:text-4xl font-bold text-primary dark:text-primary-dark mb-2">
               KIIT SGPA/CGPA Calculator
