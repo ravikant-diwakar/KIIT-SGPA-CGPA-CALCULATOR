@@ -1,4 +1,4 @@
-# KIIT SGPA/CGPA Calculator
+# Kalinga Institute of Industrial Technology (KIIT) SGPA/CGPA Calculator
 
 A modern, responsive web application for KIIT University students to calculate their Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA).
 
