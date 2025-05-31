@@ -87,7 +87,7 @@
 import React, { useState, useEffect } from 'react';
 import Button from './common/Button';
 import SemesterForm from './semester/SemesterForm';
-import ThemeToggle from './ThemeToggle';
+// import ThemeToggle from './ThemeToggle';
 import { calculateSGPA, calculateCGPA } from '../utils/calculationUtils';
 import { saveToLocalStorage, loadFromLocalStorage } from '../utils/localStorage';
 import { useSemesterManagement } from '../hooks/useSemesterManagement';
@@ -125,7 +125,7 @@ const CGPACalculator = () => {
 
   return (
     <div className="min-h-screen bg-black py-8 px-4 sm:px-6 lg:px-8">
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
       <div className="max-w-8xl mx-auto">
         <div className="space-y-6">
           {semesters.map((semester, index) => (
