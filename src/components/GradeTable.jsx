@@ -78,7 +78,7 @@ const GradeTable = () => (
   <div
     className="rounded-xl overflow-hidden"
     style={{
-      border: "0.5px solid rgba(255,255,255,0.08)",
+      border: "0.5px solid rgba(255, 255, 255, 0.08)",
       background: "#181A20",
       margin: "32px 0",
     }}
