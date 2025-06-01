@@ -55,7 +55,7 @@ const HowToUse = () => {
           </p>
         </div> */}
 
-        <div className="text-left mb-16 px-4 sm:px-6 lg:px-8 animate-fade-in">
+        {/* <div className="text-left mb-16 px-4 sm:px-6 lg:px-8 animate-fade-in">
           <div className="inline-block border-l-4 border-white pl-4">
             <h2 className="text-2xl sm:text-4xl font-bold text-white mb-2 tracking-wide">
               How to Use KIIT Calculator
@@ -65,7 +65,18 @@ const HowToUse = () => {
               quickly and accurately.
             </p>
           </div>
-        </div>
+        </div> */}
+        <div className="text-left mb-20 px-4 sm:px-6 lg:px-8 animate-fade-in">
+  <div className="inline-block bg-black border-l-4 border-white rounded-md shadow-lg p-5 sm:p-3 backdrop-blur-md">
+    <h2 className="text-2xl sm:text-4xl font-extrabold text-white mb-3 tracking-tight relative inline-block after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-10 after:h-0.5 after:bg-white">
+      How to Use KIIT Calculator
+    </h2>
+    <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-md">
+      Follow these simple steps to calculate your academic performance
+    </p>
+  </div>
+</div>
+
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step, index) => (
