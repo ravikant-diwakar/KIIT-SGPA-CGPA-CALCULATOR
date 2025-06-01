@@ -15,7 +15,7 @@ const GradeTable = () => (
     className="rounded-xl overflow-hidden"
     style={{
       border: "0.5px solid rgba(255, 255, 255, 0.08)",
-      background: 'linear-gradient(145deg, #111111, #1a1a1a)',
+      background: 'linear-gradient(145deg,rgb(12, 12, 12),rgb(14, 14, 14))',
       margin: "32px 0",
     }}
   >
