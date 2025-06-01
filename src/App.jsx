@@ -5,14 +5,12 @@ import GradeTable from "./components/GradeTable";
 import SGPACalculator from "./components/SGPACalculator";
 import CGPACalculator from "./components/CGPACalculator";
 import HowToUse from "./components/HowToUse";
-// import ThemeToggle from './components/ThemeToggle';
 import Button from "./components/common/Button";
 
 function App() {
   const [activeTab, setActiveTab] = useState("sgpa");
 
   useEffect(() => {
-    // Check system preference and localStorage for dark mode
     if (
       localStorage.theme === "dark" ||
       (!localStorage.theme &&
@@ -24,42 +22,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black">
-      {/* <ThemeToggle /> */}
       <Header />
 
       <main className="py-4 px-4 lg:py-8 lg:px-8 xl:py-16 xl:px-16">
         <div className="max-w-6xl mx-auto">
-          {/* <div className="text-center mb-6 md:mb-8">
-            <h1 className="text-2xl md:text-4xl font-bold text-white mb-2">
-              KIIT SGPA/CGPA Calculator
-            </h1>
-            <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">
-              Calculate your Semester GPA and Cumulative GPA easily
-            </p>
-          </div> */}
-          {/* <div className="text-center mb-6 md:mb-8">
-            <h1 className="text-2xl md:text-4xl font-bold text-white mb-2">
-              KIIT SGPA/CGPA Calculator
-            </h1>
-            <button className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-600 text-gray-300 bg-[#1e1e1e] hover:bg-[#2a2a2a] transition duration-200">
-              Calculate your Semester GPA and Cumulative GPA easily
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
-          </div> */}
-
           <div className="flex flex-col items-center justify-center text-center mb-6 md:mb-8 space-y-2">
             <h1 className="text-2xl md:text-3xl font-bold text-white">
               KIIT SGPA/CGPA Calculator
