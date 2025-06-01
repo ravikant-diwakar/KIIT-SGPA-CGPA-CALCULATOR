@@ -31,7 +31,7 @@ function App() {
             <h1 className="text-2xl md:text-3xl font-bold text-white">
               KIIT SGPA/CGPA Calculator
             </h1>
-            <button className="flex items-center gap-1 px-1.5 py-0.5 text-[10px] md:text-xs rounded-full border border-gray-600 text-gray-300 bg-[#0c0c0c] hover:bg-[#2a2a2a] transition duration-200 whitespace-nowrap">
+            <button className="mt-8 flex items-center gap-1 px-1.5 py-0.5 text-[10px] md:text-xs rounded-full border border-gray-600 text-gray-300 bg-[#0c0c0c] hover:bg-[#2a2a2a] transition duration-200 whitespace-nowrap">
               Calculate your Semester GPA and Cumulative GPA easily
               <svg
                 xmlns="http://www.w3.org/2000/svg"
