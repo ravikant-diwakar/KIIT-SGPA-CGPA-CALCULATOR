@@ -108,11 +108,10 @@ function App() {
                 className="bg-black text-white p-6 w-full h-full max-w-none max-h-full overflow-auto relative"
                 onClick={(e) => e.stopPropagation()}
               >
-                <h2 className="text-2xl md:text-4xl font-extrabold mb-8 text-center tracking-wide">
+                <h2 className="text-2xl md:text-4xl font-extrabold mb-4 text-center tracking-wide">
                   Calculation Formula
                 </h2>
-
-                {/* <div className="space-y-8 max-w-4xl mx-auto px-2 md:px-0 text-base md:text-lg leading-relaxed"> */}
+                <hr className="border-t border-white w-64 mx-auto mb-8" />
                 <div className="space-y-8 max-w-4xl mx-auto px-2 md:px-0 text-sm md:text-lg leading-relaxed">
                   <section>
                     <h3 className="font-semibold text-xl mb-3">Credit Point</h3>
